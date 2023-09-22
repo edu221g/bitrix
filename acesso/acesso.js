@@ -72,12 +72,12 @@ function send() {
     if (usuario === "bitrix" && senha === "movida") {
         sucesso.style.display = 'inline';
         setTimeout(() => {
-            location.href = "http://127.0.0.1:5500/home/home.html";
+            location.href = "https://edu221g.github.io/bitrix/home/home";
         }, 500);
     } else {
         negado.style.display = 'inline';
         setTimeout(() => {
-            location.href = "http://127.0.0.1:5500/error/erro.html";
+            location.href = "https://edu221g.github.io/bitrix/erro/erro";
         }, 500);
     }
 }
