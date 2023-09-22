@@ -45,3 +45,15 @@ a{
 #cafe p:hover, #fast p:hover, #cine p:hover{
     background-color: #3b4abe;
 }
+
+@media (max-width: 768px) {
+    #escolha {
+        width: 80%; 
+    }
+
+    #cafe p, #fast p, #cine p {
+        width: 100%; 
+        font-size: 16px; 
+        padding: 20px; 
+    }
+}

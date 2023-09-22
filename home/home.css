@@ -21,10 +21,21 @@ a{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
 }
 
 #texto{
     background-color: #0e0e13;
     padding: 50px;
     border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 14px; 
+    }
+
+    #texto {
+        padding: 20px; 
+    }
 }

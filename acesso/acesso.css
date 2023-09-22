@@ -82,3 +82,31 @@ a{
     font-weight: bold;
     color: #5568FE;
 }
+
+@media (max-width: 768px) {
+    .container-login {
+        height: auto;
+        padding: 20px;
+    }
+
+    .login {
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    #profile img {
+        width: 100px;
+    }
+
+    input {
+        margin-top: 10px;
+        padding: 5px;
+        height: 40px;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    form [type="submit"] {
+        font-size: 18px;
+    }
+}
