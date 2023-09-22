@@ -45,7 +45,7 @@
 
      setTimeout(() => {
 
-         location.href = "https://edu221g.github.io/bitrix/erro/erro";
+         location.href = "https://edu221g.github.io/bitrix/error/error";
     
         }, 500);
 
