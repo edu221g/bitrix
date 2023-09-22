@@ -4,6 +4,9 @@ body{
     color: white;
     user-select: none;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-login{
